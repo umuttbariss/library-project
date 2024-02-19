@@ -5,8 +5,7 @@ class Library:
 
     def __del__(self):
         self.file.close()
-
-    
+        
     def list_books(self):
         file = self.file
         file.seek(0)
@@ -65,8 +64,7 @@ class Library:
         if count == 0:
             print("-Book is not in the list!")
 
-
-
+#Program start
 lib = Library()
 
 while True:
