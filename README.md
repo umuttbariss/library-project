@@ -6,3 +6,5 @@ This is a simple library program that allows you to put your books into a databa
 and make some changes on it.
 
 You can add a new book, remove a book, list all the books.
+
+-Umut
