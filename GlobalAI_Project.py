@@ -35,10 +35,10 @@ class Library:
 
 
     def add_book(self):
-        book_title = input("Book Title: ")
-        book_author = input("Author: ")
-        relase_year = input("Relase Year: ")
-        nop = input("Number of Pages: ")
+        book_title = input("Book Title: ").strip(",")
+        book_author = input("Author: ").strip(",")
+        relase_year = input("Relase Year: ").strip(",")
+        nop = input("Number of Pages: ").strip(",")
 
         result = f'{book_title},{book_author},{relase_year},{nop}\n'
 
